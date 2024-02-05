@@ -4,9 +4,9 @@ import turtle
 
 def parse_args():
     parser = argparse.ArgumentParser(
-        description="Draw Pifagoras tree with specified order")
+        description="Draw Pythagoras tree with specified order")
     parser.add_argument('-o', '--order', type=int, required=True,
-                        help='Specify order for Pifagoras tree')
+                        help='Specify order for Pythagoras tree')
     parser.add_argument('-s', '--size', type=int,
                         default=100, help="Specify segment's size")
     return parser.parse_args()
