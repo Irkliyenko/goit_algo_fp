@@ -12,7 +12,7 @@ def parse_args():
     return parser.parse_args()
 
 
-def draw_pifagoras_tree(size, t, order):
+def draw_pythagoras_tree(size, t, order):
     if order == 0:
         return
     else:
@@ -21,11 +21,11 @@ def draw_pifagoras_tree(size, t, order):
 
         # Draw right subtree
         t.right(45)
-        draw_pifagoras_tree(0.6 * size, t, order - 1)
+        draw_pythagoras_tree(0.6 * size, t, order - 1)
 
         # Return to main branch
         t.left(90)
-        draw_pifagoras_tree(0.6 * size, t, order - 1)
+        draw_pythagoras_tree(0.6 * size, t, order - 1)
 
         # Return to main branch and move back
         t.right(45)
@@ -50,7 +50,7 @@ def main():
     t.down()
 
     # Draw the Pifagoras tree
-    draw_pifagoras_tree(args.size, t, args.order)
+    draw_pythagoras_tree(args.size, t, args.order)
 
     # Close the turtle graphics window on click
     screen.exitonclick()
