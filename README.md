@@ -30,4 +30,5 @@ While executing these two functions, I observed discrepancies in the results. Fo
 | 11  | 5.57          | 5.56          |
 | 12  | 2.80          | 2.78          |
 
+\*\*Fig x: Probability Distribution of the Sum of Two Dice.
 ![Probability Distribution of the Sum of Two Dice](ex7.png)
