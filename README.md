@@ -14,7 +14,7 @@ While executing these two functions, I observed discrepancies in the results. Fo
 
 ## Problem 7.
 
-\*\*Table x: Comparison of Probabilities for the Sum of Two Dice - Monte Carlo Algorithm (1) vs. Analytical Method (2).
+**Table x: Comparison of Probabilities for the Sum of Two Dice - Monte Carlo Algorithm (1) vs. Analytical Method (2).**
 
 | Sum | Probability 1 | Probability 2 |
 | --- | ------------- | ------------- |
