@@ -14,6 +14,10 @@ While executing these two functions, I observed discrepancies in the results. Fo
 
 ## Problem 7.
 
+The Monte Carlo algorithm is a computational technique that relies on repeated random sampling to obtain numerical results. It's particularly effective for solving problems that are complex and probabilistic in nature, as it approximates solutions through simulation when exact analytical solutions are difficult or impossible to obtain.
+
+In this task, I employed the Monte Carlo algorithm to calculate the probability distribution of the sum of two dice. I simulated 1,000,000 dice rolls and randomly generated numbers for each dice. The program then calculates the sum of these two numbers and determines their respective probabilities. The results presented in Table x show that the calculations performed using the Monte Carlo algorithm are almost identical to those obtained through analytical methods. It is important to highlight that the Monte Carlo algorithm calculates an approximate result, and its precision depends on the number of data points and experiments.
+
 **Table x: Comparison of Probabilities for the Sum of Two Dice - Monte Carlo Algorithm (1) vs. Analytical Method (2).**
 
 | Sum | Probability 1 | Probability 2 |

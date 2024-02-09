@@ -1,4 +1,12 @@
 def greedy_algorithm(dict_items, budget):
+    """
+    Greedy algorithm to maximize caloric value within a budget.
+    Items are chosen based on the best caloric value to cost ratio.
+    """
+
+    if budget < 0:
+        raise ValueError("Budget cannot be negative.")
+
     # Sort items by calories/cost ratio in descending order
     sorted_items = sorted(
         dict_items.items(), key=lambda x: x[1]["calories"] / x[1]["cost"], reverse=True)
@@ -21,7 +29,16 @@ def greedy_algorithm(dict_items, budget):
 
 
 def dynamic_programming(items, budget):
+    """
+    Dynamic programming approach to maximize caloric value within a budget.
+    Considers all possible combinations to find the optimal solution.
+    """
+
+    if budget < 0:
+        raise ValueError("Budget cannot be negative.")
+
     num_items = len(items)
+
     # Initialize a table to store optimal values for subproblems
     dp_table = [[0] * (budget + 1) for _ in range(num_items + 1)]
 
