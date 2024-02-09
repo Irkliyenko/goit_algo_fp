@@ -6,6 +6,12 @@ This task involves creating a Pythagoras tree using Python's turtle graphics lib
 
 I utilized the turtle module for graphical rendering, employing command-line arguments to specify the order (recursion level) and segment size of the tree. The draw_pythagoras_tree function, which I implemented, employs recursive logic to draw the tree with branches at specific angles. The incorporation of the turtle graphics library streamlines the translation of recursive logic into a visually compelling representation. This task serves as an exemplar, showcasing recursion's sophistication and effectiveness in generating intricate patterns with concise code.
 
+## Problem 3.
+
+This code demonstrates the implementation of Dijkstra's algorithm for calculating the shortest paths in a weighted directed graph, utilizing Python's heapq library for efficient vertex selection. The task consists of two main parts: constructing and visualizing the graph using the NetworkX library, and computing the shortest paths using a custom implementation of Dijkstra's algorithm.
+
+The `graph_builder` function in the code creates a directed graph from a dictionary, adds weighted edges, and visualizes it, while also using NetworkX's Dijkstra functions to calculate and return the shortest paths and path lengths as a reference. In the second part, the `dijkstra_with_heap` function represents a custom implementation of Dijkstra's algorithm. I've compared my custom Dijkstra algorithm with the NetworkX library function single_source_dijkstra_path_length and obtained the same results. Additionally, I ran the single_source_dijkstra_path function to determine the shortest path.
+
 ## Problem 6.
 
 For this task, I employed two distinct algorithms: a greedy approach and a dynamic programming approach, to address the challenge of selecting food items with the maximum total caloric value within a constrained budget. I implemented two functions, greedy_algorithm and dynamic_programming, each designed to maximize the caloric value of a meal within a specified financial limit.
