@@ -1,5 +1,9 @@
 # Algorithms. Final Project
 
+## Problem 1.
+
+For this task, I implemented three functions: `reverse`, `merge_sort`, and `merge_sorted_lists`. The `reverse` function reverses the linked list in place, `merge_sort` sorts the list using the merge sort algorithm, and `merge_sorted_lists` merges two linked lists.
+
 ## Problem 2.
 
 This task involves creating a Pythagoras tree using Python's turtle graphics library. The Pythagoras tree, a geometric fractal, is constructed recursively, resulting in an aesthetically pleasing visual pattern.
@@ -11,6 +15,14 @@ I utilized the turtle module for graphical rendering, employing command-line arg
 This code demonstrates the implementation of Dijkstra's algorithm for calculating the shortest paths in a weighted directed graph, utilizing Python's heapq library for efficient vertex selection. The task consists of two main parts: constructing and visualizing the graph using the NetworkX library, and computing the shortest paths using a custom implementation of Dijkstra's algorithm.
 
 The `graph_builder` function in the code creates a directed graph from a dictionary, adds weighted edges, and visualizes it, while also using NetworkX's Dijkstra functions to calculate and return the shortest paths and path lengths as a reference. In the second part, the `dijkstra_with_heap` function represents a custom implementation of Dijkstra's algorithm. I've compared my custom Dijkstra algorithm with the NetworkX library function single_source_dijkstra_path_length and obtained the same results. Additionally, I ran the single_source_dijkstra_path function to determine the shortest path.
+
+## Problem 4.
+
+In this task, I defined the function `draw_heap`, which takes an array representing a binary heap and visualizes it as a binary tree layout with the aid of the `networkx` and `matplotlib` libraries.
+
+## Problem 5.
+
+This task focuses on defining a binary tree and visualizing it using both breadth-first search (BFS) and depth-first search (DFS) traversals. The code constructs a binary tree and assigns a unique color to each node based on the order of traversal. It then visualizes the tree using the NetworkX and Matplotlib libraries. The draw_tree function allows for the visualization of the tree with either BFS or DFS traversal, with the colors of the nodes reflecting the traversal path.
 
 ## Problem 6.
 
